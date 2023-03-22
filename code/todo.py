@@ -75,6 +75,10 @@ def main():
             os.system('clear') # WIndows => os.system('cls')
             print('Please, enter just numbers!')
             print()
+        except IndexError:
+            os.system('clear') # WIndows => os.system('cls')
+            print("You don't have tasks yet!")
+            print()
 
 if __name__ == '__main__':
     try:
