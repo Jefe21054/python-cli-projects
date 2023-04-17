@@ -13,5 +13,6 @@ def factorial(num):
             aux = aux * i
         return aux
 
-res = factorial(5)
-print(res)
+numero = 6
+res = factorial(numero)
+print(f'Factorial de {numero} es: {res}')
